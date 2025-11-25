@@ -1,0 +1,103 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "menu": "Menu",
+    "location": "Location",
+    "contact": "Contact"
+  },
+  "lang": {
+    "spanish": "Spanish",
+    "english": "English"
+  
+  },
+  "auth": {
+    "login": "Sign in",
+    "logout": "Sign out"
+  },
+  "home": {
+    "title": "Uncle Texas Puerto Varas",
+    "subtitle": "Texas-style smoked meats in Southern Chile",
+    "cta": "See menu",
+    "slider": {
+      "title2": "Texas BBQ in Southern Chile",
+      "body2": "We are an authentic smokehouse located in Puerto Varas. Brisket, ribs, pulled pork and Texan-style burgers, slow-cooked and smoked for over 12 hours.",
+      "title3": "Perfect for families",
+      "body3": "We offer a large backyard, children's games, outdoor tables, heated indoor areas and a cozy atmosphere for everyone."
+    }
+  },
+  "about": {
+    "pill": "ABOUT US",
+    "paragraph1": "Uncle Texas was born from the mix between Texan BBQ and southern Chile. We are a team of friends and family who fell in love with slow smoking, wood and good conversations around the table.",
+    "paragraph2": "We work with selected meats, cooked low and slow for many hours, accompanied by local beers, music and a relaxed atmosphere designed for groups, families and companies."
+  },
+  "menuSection": {
+    "pill": "MENU",
+    "intro": "Our menu may change depending on the season, but these are some classics you'll always find at Uncle Texas.",
+    "col1Title": "Sandwich & BBQ",
+    "col2Title": "Sides & Drinks",
+    "items": {
+      "brisket": "Brisket 250 g",
+      "ribs": "St. Louis Ribs",
+      "pulledPork": "Pulled Pork Sandwich",
+      "burger": "Uncle Texas Burger",
+      "fries": "Rustic fries",
+      "macCheese": "Mac & Cheese",
+      "salad": "House salad",
+      "drinks": "Soft drinks / Beers",
+      "drinksNote": "see menu"
+    }
+  },
+  "locationSection": {
+    "pill": "LOCATION",
+    "paragraph": "We are located just outside Puerto Varas, in our Uncle Texas smokehouse, with a large parking area and a family-friendly atmosphere.",
+    "addressLabel": "Address",
+    "addressValue": "Uncle Texas, Puerto Varas, Los Lagos Region, Chile.",
+    "refLabel": "References",
+    "refValue": "Located on the road to Puerto Varas, near Route 5, with easy access."
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "contact": {
+    "sectionPill": "CONTACT",
+    "contactIntro": "Write to us if you want to book an event, make a special reservation or ask anything about Uncle Texas.",
+    "phoneLabel": "Phone",
+    "instagramLabel": "Instagram",
+    "emailLabel": "Email",
+
+    "opinionsTitle": "Customer reviews",
+    "opinionsSubtitle": "Share your experience at Uncle Texas. Your comment and rating help us improve.",
+
+    "formNameLabel": "Name",
+    "formNamePlaceholderLogged": "Commenting as {{name}}",
+    "formNamePlaceholderGuest": "You must sign in with Google",
+
+    "formRatingLabel": "Rating",
+    "formRatingNoUser": "Sign in to rate",
+    "formRatingNoSelect": "Select a rating",
+
+    "formCommentLabel": "Comment",
+    "formCommentPlaceholderLogged": "How was your experience at Uncle Texas?",
+    "formCommentPlaceholderGuest": "Sign in to leave your review",
+
+    "submitButton": "Send review",
+
+    "emptyOpinions": "There are no reviews yet. Be the first!",
+
+    "modalTitle": "Howdy, amigo! 🤠",
+    "modalText": "You must sign in to leave a review. We hope you enjoyed your visit!",
+    "modalButton": "Got it",
+
+    "mustLoginToOpinion": "You must sign in with Google to leave a review.",
+    "mustWriteComment": "Please write a comment.",
+    "mustChooseRating": "You must choose a rating from 1 to 5 stars.",
+    "onlyOwnCanEdit": "You can only edit your own reviews.",
+    "onlyOwnCanDelete": "You can only delete your own reviews.",
+    "commentCantBeEmpty": "The comment cannot be empty.",
+    "deleteConfirm": "Delete this review?",
+    "errorCreate": "The review could not be saved.",
+    "errorUpdate": "The review could not be updated.",
+    "errorDelete": "The review could not be deleted."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Quiénes Somos",
+    "menu": "Menú",
+    "location": "Dónde Estamos",
+    "contact": "Contacto"
+  },
+  "lang": {
+    "spanish": "Español",
+    "english": "Inglés"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión"
+  },
+  
+  "home": {
+    "title": "Uncle Texas Puerto Varas",
+    "subtitle": "Carnes ahumadas estilo texano en el sur de Chile",
+    "cta": "Ver menú",
+    "slider": {
+      "title2": "Texas BBQ en el sur de Chile",
+      "body2": "Somos un smokehouse auténtico ubicado en Puerto Varas. Brisket, ribs, pulled pork y hamburguesas estilo tejano, preparadas a fuego lento y ahumadas por más de 12 horas.",
+      "title3": "Perfecto para familias",
+      "body3": "Contamos con un enorme patio, juegos para niños, mesas exteriores, interiores calefaccionados y un ambiente acogedor para todos."
+    }
+  },
+  "about": {
+    "pill": "QUIÉNES SOMOS",
+    "paragraph1": "Uncle Texas nace de la mezcla entre el BBQ tejano y el sur de Chile. Somos un equipo de amigos y familia que se enamoró del ahumado lento, la madera y las buenas conversas alrededor de la mesa.",
+    "paragraph2": "Trabajamos con carnes seleccionadas, cocinadas por muchas horas a baja temperatura, y acompañadas de cervezas locales, música y un ambiente relajado pensado para grupos, familias y empresas."
+  },
+  "menuSection": {
+    "pill": "MENÚ",
+    "intro": "Nuestra carta puede variar según la temporada, pero estos son algunos clásicos que siempre vas a encontrar en Uncle Texas.",
+    "col1Title": "Sandwich & BBQ",
+    "col2Title": "Acompañamientos & Bebidas",
+    "items": {
+      "brisket": "Brisket 250 g",
+      "ribs": "Costillas St. Louis",
+      "pulledPork": "Pulled Pork Sandwich",
+      "burger": "Hamburguesa Uncle Texas",
+      "fries": "Papas fritas rústicas",
+      "macCheese": "Mac & Cheese",
+      "salad": "Ensalada de la casa",
+      "drinks": "Bebidas / Cervezas",
+      "drinksNote": "según carta"
+    }
+  },
+  "locationSection": {
+    "pill": "DÓNDE ESTAMOS",
+    "paragraph": "Estamos ubicados a las afueras de Puerto Varas, en nuestro smokehouse Uncle Texas, con amplio estacionamiento y un ambiente familiar.",
+    "addressLabel": "Dirección",
+    "addressValue": "Uncle Texas, Puerto Varas, Región de Los Lagos, Chile.",
+    "refLabel": "Referencias",
+    "refValue": "Ubicado camino a Puerto Varas, cercano a la Ruta 5, con fácil acceso."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  },
+  "contact": {
+    "sectionPill": "CONTACTO",
+    "contactIntro": "Escríbenos si quieres cotizar un evento, hacer una reserva especial o resolver cualquier duda sobre Uncle Texas.",
+    "phoneLabel": "Teléfono",
+    "instagramLabel": "Instagram",
+    "emailLabel": "Correo",
+
+    "opinionsTitle": "Opiniones de clientes",
+    "opinionsSubtitle": "Comparte tu experiencia en Uncle Texas. Tu comentario y tu calificación nos ayudan a mejorar.",
+
+    "formNameLabel": "Nombre",
+    "formNamePlaceholderLogged": "Comentando como {{name}}",
+    "formNamePlaceholderGuest": "Debes iniciar sesión con Google",
+
+    "formRatingLabel": "Calificación",
+    "formRatingNoUser": "Inicia sesión para calificar",
+    "formRatingNoSelect": "Selecciona una calificación",
+
+    "formCommentLabel": "Comentario",
+    "formCommentPlaceholderLogged": "¿Qué te pareció Uncle Texas?",
+    "formCommentPlaceholderGuest": "Inicia sesión para dejar tu opinión",
+
+    "submitButton": "Enviar opinión",
+
+    "emptyOpinions": "Aún no hay opiniones. ¡Sé el primero en comentar!",
+
+    "modalTitle": "Howdy amigo! 🤠",
+    "modalText": "Debes iniciar sesión para opinar, ¡esperamos que te haya gustado!",
+    "modalButton": "Entendido",
+
+    "mustLoginToOpinion": "Debes iniciar sesión con Google para dejar una opinión.",
+    "mustWriteComment": "Por favor, escribe un comentario.",
+    "mustChooseRating": "Elige una calificación de 1 a 5 estrellas.",
+    "onlyOwnCanEdit": "Solo puedes editar tus propias opiniones.",
+    "onlyOwnCanDelete": "Solo puedes eliminar tus propias opiniones.",
+    "commentCantBeEmpty": "El comentario no puede estar vacío.",
+    "deleteConfirm": "¿Eliminar esta opinión?",
+    "errorCreate": "No se pudo guardar la opinión.",
+    "errorUpdate": "No se pudo actualizar la opinión.",
+    "errorDelete": "No se pudo eliminar la opinión."
+  }
+}
