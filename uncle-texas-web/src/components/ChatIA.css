@@ -1,0 +1,146 @@
+/* Botón flotante redondo */
+.chatia-fab {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  background: #ffc857;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.chatia-fab:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.4);
+}
+
+/* Ventana de chat base (desktop) */
+.chatia-window {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 360px;
+  max-height: 80vh; /* un poco más alta */
+  background: #1d130b;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 1000;
+  border: 1px solid rgba(255, 200, 87, 0.4);
+}
+
+/* Encabezado */
+.chatia-header {
+  padding: 0.8rem 1rem;
+  background: #25170f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #ffd46a;
+}
+
+.chatia-close {
+  border: none;
+  background: transparent;
+  color: #ffd46a;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Zona de mensajes */
+.chatia-messages {
+  padding: 0.75rem 0.9rem;
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Mensaje base */
+.chatia-message {
+  padding: 0.5rem 0.7rem;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Mensaje del bot */
+.chatia-message-bot {
+  align-self: flex-start;
+  background: #36241a;
+  color: #f8f5ef;
+}
+
+/* Mensaje del usuario */
+.chatia-message-user {
+  align-self: flex-end;
+  background: #ffc857;
+  color: #2b1507;
+}
+
+/* Barra de entrada */
+.chatia-input-row {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.6rem 0.7rem 0.7rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.09);
+  background: #25170f;
+}
+
+.chatia-input-row input {
+  flex: 1;
+  border-radius: 999px;
+  border: none;
+  padding: 0.45rem 0.8rem;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.chatia-input-row button {
+  border: none;
+  border-radius: 999px;
+  padding: 0.45rem 0.9rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: #ffc857;
+  color: #2b1507;
+  font-weight: 600;
+}
+
+.chatia-input-row button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+/* Móviles: que se vea casi pantalla completa con margen */
+@media (max-width: 768px) {
+  .chatia-window {
+    left: 0.75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    top: 0.75rem;
+    width: auto;
+    max-height: none;
+    border-radius: 18px;
+  }
+
+  .chatia-fab {
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
